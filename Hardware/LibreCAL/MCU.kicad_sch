@@ -2809,6 +2809,231 @@
 				)
 			)
 		)
+		(symbol "LibreCAL:W25N01GVZEIG"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -14.605 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "W25N01GVZEIG"
+				(at -8.255 9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SON:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "W25N01GVZEIG_0_1"
+				(rectangle
+					(start -8.89 7.62)
+					(end 5.08 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "W25N01GVZEIG_1_1"
+				(pin input line
+					(at -11.43 5.08 0)
+					(length 2.54)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 0 0)
+					(length 2.54)
+					(name "DO(IO_{1})"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 -2.54 0)
+					(length 2.54)
+					(name "~{WP}(IO_{2})"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 2.54 0)
+					(length 2.54)
+					(name "DI(IO_{0})"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 -7.62 0)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 -5.08 0)
+					(length 2.54)
+					(name "~{HOLD}(IO_{3})"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -12.7 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "LibreCAL:W25Q16JVSNIQ"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7105,6 +7330,97 @@
 		)
 	)
 	(symbol
+		(lib_id "LibreCAL:W25N01GVZEIG")
+		(at 237.49 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "284c52c1-f9cf-41a1-ae03-583a27a143df")
+		(property "Reference" "U10"
+			(at 243.84 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "W25N01GVZEIG"
+			(at 243.84 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SON:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm"
+			(at 237.49 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cc5c3711-dd82-4baa-a1b7-4921ef69907b")
+		)
+		(pin "8"
+			(uuid "232b95f2-09b5-410b-8a53-0458c09f22be")
+		)
+		(pin "1"
+			(uuid "314a7ae8-dec3-4d62-93e9-f8d7ecb0a51e")
+		)
+		(pin "4"
+			(uuid "ad44cf52-958b-4b6a-a958-b1b58cae510a")
+		)
+		(pin "3"
+			(uuid "0fba65df-f3dd-40db-971f-fb4f22415abe")
+		)
+		(pin "6"
+			(uuid "dbdd263a-b87c-48d3-91ca-a86a3a8b444b")
+		)
+		(pin "5"
+			(uuid "77ddfb8d-c225-4dd8-b0c9-5faf801eb20a")
+		)
+		(pin "7"
+			(uuid "9b7b18e7-85a7-43a3-8e0c-bf17926dd039")
+		)
+		(pin "9"
+			(uuid "e573fae3-dc60-4d73-8e29-84718e6a8780")
+		)
+		(instances
+			(project "LibreCAL"
+				(path "/b0788102-5488-43c5-b42c-71fadd77b28d/8ae04189-9a62-4c2c-b6af-68aaa5063c12"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 194.31 57.15 0)
 		(unit 1)
@@ -10589,102 +10905,6 @@
 			(project "LibreCAL"
 				(path "/b0788102-5488-43c5-b42c-71fadd77b28d/8ae04189-9a62-4c2c-b6af-68aaa5063c12"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LibreCAL:W25Q16JVSNIQ")
-		(at 237.49 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d2a4335f-712c-43f3-9955-a59df98161b7")
-		(property "Reference" "U8"
-			(at 233.68 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "W25Q128JVSIQ"
-			(at 224.79 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
-			(at 237.49 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.winbond.com/hq/support/documentation/levelOne.jsp?__locale=en&DocNo=DA00-W25Q16JV.1"
-			(at 237.49 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 237.49 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC_Part" "C115407"
-			(at 237.49 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "989d2621-42e1-4466-a234-15de74eb5f34")
-		)
-		(pin "2"
-			(uuid "820ea9bd-c070-4b7b-99bc-5b19fb5e1aef")
-		)
-		(pin "3"
-			(uuid "5b40c5ca-db07-43f6-afe6-30cdb4de2438")
-		)
-		(pin "4"
-			(uuid "ef30b982-dd0f-4bf7-a6a8-1b00850285ae")
-		)
-		(pin "5"
-			(uuid "cc3ba307-1781-4932-a8d3-290b249e9810")
-		)
-		(pin "6"
-			(uuid "43504f60-2456-48fb-95de-298904fd02aa")
-		)
-		(pin "7"
-			(uuid "9a65c3f3-8b06-4e3a-9661-ee561a56ad54")
-		)
-		(pin "8"
-			(uuid "a0cb0ed5-5ded-48cc-9fa3-64363456214c")
-		)
-		(instances
-			(project "LibreCAL"
-				(path "/b0788102-5488-43c5-b42c-71fadd77b28d/8ae04189-9a62-4c2c-b6af-68aaa5063c12"
-					(reference "U8")
 					(unit 1)
 				)
 			)
