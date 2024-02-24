@@ -7337,10 +7337,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "284c52c1-f9cf-41a1-ae03-583a27a143df")
 		(property "Reference" "U10"
-			(at 243.84 72.3899 0)
+			(at 242.824 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7349,7 +7348,7 @@
 			)
 		)
 		(property "Value" "W25N01GVZEIG"
-			(at 243.84 74.9299 0)
+			(at 242.824 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11419,7 +11418,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f3d0ea66-49a8-4254-9d01-b801c122dd5a")
 		(property "Reference" "#PWR074"
 			(at 252.73 76.2 0)
