@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "LibreCAL")
-		(date "2023-11-30")
-		(rev "B")
+		(date "2024-04-27")
+		(rev "B+")
 	)
 	(layers
 		(0 "F.Cu" signal)
