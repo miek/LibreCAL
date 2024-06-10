@@ -29,6 +29,7 @@ bool Flash::isPresent() {
 			valid = true;
 			totalSize = 0;
 			switch(recv[3]) {
+			case 0x21: totalSize = 16777216; break;
 			case 0x18: totalSize = 16777216; break;
 			case 0x17: totalSize = 8388608; break;
 			case 0x16: totalSize = 4194304; break;
